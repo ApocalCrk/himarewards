@@ -1,4 +1,4 @@
-<?php include_once '/vendor/autoload.php'; ?>
+<?php include_once 'vendor/autoload.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,10 +29,6 @@
                     <div class="ranking-table-header-data h6">Poin</div>
                     <div class="ranking-table-header-data h6">Detail</div>
                 </div>
-                
-                <?php for($i = 1; $i<=100; $i++):
-                        echo $i;
-                       endfor; ?>
                 
                 <?php foreach ($data as $key => $value) : ?>
                 <?php if ($key < 3) : ?>
