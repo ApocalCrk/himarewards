@@ -1,4 +1,4 @@
-<?php include_once 'vendor/autoload.php'; ?>
+<?php require('vendor/autoload.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
