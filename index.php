@@ -30,7 +30,7 @@
                     <div class="ranking-table-header-data h6">Detail</div>
                 </div>
                 
-                <?php for($i = 1; $i<=100; i++){
+                <?php for($i = 1; $i<=100; $i++){
                         echo $i;
                        } ?>
                 
