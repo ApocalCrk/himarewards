@@ -30,6 +30,10 @@
                     <div class="ranking-table-header-data h6">Detail</div>
                 </div>
                 
+                <?php for($i = 1; $i<=100; i++){
+                        echo $i;
+                       } ?>
+                
                 <?php foreach ($data as $key => $value) : ?>
                 <?php if ($key < 3) : ?>
                 <div class="ranking-table-row-leader-<?php echo $value['rank']; ?>">
